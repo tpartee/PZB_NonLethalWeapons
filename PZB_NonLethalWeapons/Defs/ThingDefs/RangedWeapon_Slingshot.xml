@@ -15,6 +15,7 @@
       <DamageAmountBase>2</DamageAmountBase>
       <Speed>30</Speed>
     </projectile>
+    <thingClass>PZB.Projectile_SlingshotBullet</thingClass>
   </ThingDef>
 
   <ThingDef ParentName="BaseHumanMakeableGun">
