@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ThingDefs>
 
-  <ThingDef ParentName="BaseBullet">
+  <ThingDef Class="PZB.ThingDef_SlingshotBullet" ParentName="BaseBullet">
     <!-- TODO: Add custom textures -->
     <defName>PZB_Slingshot_Bullet</defName>
     <label>slingshot bullet</label>
