@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>PZB Mods - Non-Lethal Weapons</name>
+	<author>PanzerBjorn</author>
+	<targetVersion>0.18.0</targetVersion>
+	<description>v0.1
+    This mod adds a number of non-lethal weapons (less lethal anyway) of varying tech levels in the spirit of the game's design (you must research for access to these new weapons for example).
+	</description>
+</ModMetaData>
