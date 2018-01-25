@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>PBZ_SlingStone</defName>
+    <label>sling stone</label>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been pelted to death.</deathMessage>
+    <hediff>Crush</hediff>
+    <hediffSkin>Bruise</hediffSkin>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+  </DamageDef>
+
+</Defs>
