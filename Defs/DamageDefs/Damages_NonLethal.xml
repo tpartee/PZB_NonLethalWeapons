@@ -6,7 +6,7 @@
     <label>sling stone</label>
     <externalViolence>true</externalViolence>
     <deathMessage>{0} has been pelted to death.</deathMessage>
-    <hediff>Crush</hediff>
+    <hediff>Pelt</hediff>
     <hediffSkin>Bruise</hediffSkin>
     <hediffSolid>Crack</hediffSolid>
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>

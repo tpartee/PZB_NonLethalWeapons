@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BaseProjectileNeolithic">
     <!-- TODO: Add custom textures -->
@@ -12,8 +12,8 @@
     <projectile>
       <flyOverhead>false</flyOverhead>
       <damageDef>PBZ_SlingStone</damageDef>
-      <DamageAmountBase>2.5</DamageAmountBase>
-      <Speed>42</Speed>
+      <damageAmountBase>2</damageAmountBase>
+      <speed>42</speed>
     </projectile>
     <!-- thingClass>PZB.Projectile_SlingshotBullet</thingClass -->
   </ThingDef>
@@ -24,7 +24,7 @@
     <label>slingshot</label>
     <description>A primitive stone-slinging device to pelt enemies with blunt force damage.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Pistol</texPath>
+      <texPath>Things/Item/Equipment/Slingshot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <!-- soundInteract>InteractPistol</soundInteract -->
@@ -62,7 +62,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>PZB_SlingshotBullet</projectileDef>
+        <defaultProjectile>PZB_SlingshotBullet</defaultProjectile>
         <warmupTime>1.0</warmupTime>
         <range>18</range>
         <soundCast>BowSmall</soundCast>
@@ -71,4 +71,4 @@
     </verbs>
   </ThingDef>
 
-</ThingDefs>
+</Defs>

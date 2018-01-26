@@ -7,11 +7,8 @@
     <description>A simple device used to pelt enemies with stones - tends to be far less lethal than bow and arrow.</description>
     <baseCost>150</baseCost>
     <techLevel>Neolithic</techLevel>
-    <tags>
-      <li>TribalStart</li>
-    </tags>
     <researchViewX>1</researchViewX>
-    <researchViewY>4</researchViewY>
+    <researchViewY>4.5</researchViewY>
   </ResearchProjectDef>
 
 </Defs>
