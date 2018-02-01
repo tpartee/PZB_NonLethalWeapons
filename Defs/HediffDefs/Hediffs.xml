@@ -4,17 +4,17 @@
 	<HediffDef ParentName="InjuryBase">
 		<defName>Pelt</defName>
 		<label>pelt</label>
-    <labelNoun>a blunt pelting</labelNoun>
-    <comps>
-      <li Class="HediffCompProperties_TendDuration">
-        <labelTendedWell>bandaged</labelTendedWell>
-        <labelTendedWellInner>sutured</labelTendedWellInner>
-        <labelSolidTendedWell>set</labelSolidTendedWell>
-      </li>
-    </comps>
-    <injuryProps>
-      <painPerSeverity>0.125</painPerSeverity>
-      <averagePainPerSeverityOld>0.0125</averagePainPerSeverityOld>
+        <labelNoun>a blunt pelting</labelNoun>
+        <comps>
+            <li Class="HediffCompProperties_TendDuration">
+                <labelTendedWell>bandaged</labelTendedWell>
+                <labelTendedWellInner>sutured</labelTendedWellInner>
+                <labelSolidTendedWell>set</labelSolidTendedWell>
+            </li>
+        </comps>
+        <injuryProps>
+            <painPerSeverity>0.225</painPerSeverity>
+            <averagePainPerSeverityOld>0.025</averagePainPerSeverityOld>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Destroyed</destroyedLabel>
 		</injuryProps>
@@ -23,17 +23,17 @@
 	<HediffDef ParentName="InjuryBase">
 		<defName>Zap</defName>
 		<label>zap</label>
-    <labelNoun>an electric jolt</labelNoun>
-    <comps>
-      <li Class="HediffCompProperties_TendDuration">
-        <labelTendedWell>bandaged</labelTendedWell>
-        <labelTendedWellInner>sutured</labelTendedWellInner>
-        <labelSolidTendedWell>set</labelSolidTendedWell>
-      </li>
-    </comps>
-    <injuryProps>
-      <painPerSeverity>0.25</painPerSeverity>
-      <averagePainPerSeverityOld>0.0125</averagePainPerSeverityOld>
+        <labelNoun>an electric jolt</labelNoun>
+        <comps>
+            <li Class="HediffCompProperties_TendDuration">
+                <labelTendedWell>bandaged</labelTendedWell>
+                <labelTendedWellInner>sutured</labelTendedWellInner>
+                <labelSolidTendedWell>set</labelSolidTendedWell>
+            </li>
+        </comps>
+        <injuryProps>
+            <painPerSeverity>0.4</painPerSeverity>
+            <averagePainPerSeverityOld>0.05</averagePainPerSeverityOld>
 			<canMerge>false</canMerge>
 			<destroyedLabel>Destroyed</destroyedLabel>
 		</injuryProps>

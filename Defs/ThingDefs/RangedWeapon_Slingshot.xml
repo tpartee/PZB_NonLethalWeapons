@@ -11,7 +11,7 @@
     </graphicData>
     <projectile>
       <flyOverhead>false</flyOverhead>
-      <damageDef>PBZ_SlingStone</damageDef>
+      <damageDef>PZB_SlingStoneDamage</damageDef>
       <damageAmountBase>2</damageAmountBase>
       <speed>42</speed>
     </projectile>
@@ -36,7 +36,7 @@
       <AccuracyMedium>0.45</AccuracyMedium>
       <AccuracyLong>0.25</AccuracyLong>
       <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
-      <Weapon_Bulk>1.0</Weapon_Bulk>
+      <Weapon_Bulk>0.35</Weapon_Bulk>
     </statBases>
     <weaponTags>
       <li>NeolithicRanged</li>

@@ -2,7 +2,7 @@
 <Defs>
 
   <DamageDef ParentName="LocalInjuryBase">
-    <defName>PBZ_SlingStone</defName>
+    <defName>PZB_SlingStoneDamage</defName>
     <label>sling stone</label>
     <externalViolence>true</externalViolence>
     <deathMessage>{0} has been pelted to death.</deathMessage>
@@ -12,6 +12,52 @@
     <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Blunt</armorCategory>
+  </DamageDef>
+
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>PZB_StunStickDamage</defName>
+    <label>stun</label>
+    <workerClass>DamageWorker_Blunt</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been stunsticked to death.</deathMessage>
+    <hediff>Zap</hediff>
+    <hediffSkin>Bruise</hediffSkin>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <bluntInnerHitFrequency>0.2</bluntInnerHitFrequency>
+    <bluntInnerHitConverted>
+      <min>0.05</min>
+      <max>0.1</max>
+    </bluntInnerHitConverted>
+    <bluntInnerHitAdded>
+      <min>0.1</min>
+      <max>0.25</max>
+    </bluntInnerHitAdded>
+  </DamageDef>
+
+  <DamageDef ParentName="LocalInjuryBase">
+    <defName>PZB_Zap</defName>
+    <label>zap</label>
+    <workerClass>DamageWorker_Blunt</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been zapped to death.</deathMessage>
+    <hediff>Zap</hediff>
+    <hediffSkin>Bruise</hediffSkin>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <bluntInnerHitFrequency>0.2</bluntInnerHitFrequency>
+    <bluntInnerHitConverted>
+      <min>0.05</min>
+      <max>0.1</max>
+    </bluntInnerHitConverted>
+    <bluntInnerHitAdded>
+      <min>0.1</min>
+      <max>0.25</max>
+    </bluntInnerHitAdded>
   </DamageDef>
 
 </Defs>

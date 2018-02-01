@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Blunt_Quality">
+		<defName>PBZ_MeleeWeapon_StunStick</defName>
+		<label>stun stick</label>
+		<description>An industrial era melee weapon which delivers an incredibly painful jolt.</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Mace</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+        <techLevel>Industrial</techLevel>
+		<statBases>
+			<WorkToMake>3500</WorkToMake>
+			<Mass>1.5</Mass>
+            <Weapon_Bulk>0.75</Weapon_Bulk>
+		</statBases>
+		<equippedAngleOffset>-35</equippedAngleOffset>
+        <recipeMaker>
+            <recipeUsers>
+                <li>ElectricSmithy</li>
+                <li>FueledSmithy</li>
+            </recipeUsers>
+            <researchPrerequisite>PZB_StunStickProject</researchPrerequisite>
+        </recipeMaker>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+        <costList>
+            <Steel>25</Steel>
+            <Component>1</Component>
+        </costList>
+        <weaponTags>
+            <li>NonNeolithicOnlyMelee</li>
+        </weaponTags>
+        <tools>
+            <li>
+                <label>head</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>PZB_Zap</li>
+                </capacities>
+                <power>4.8</power>
+                <cooldownTime>0.9</cooldownTime>
+            </li>
+        </tools>
+	</ThingDef>
+
+</Defs>

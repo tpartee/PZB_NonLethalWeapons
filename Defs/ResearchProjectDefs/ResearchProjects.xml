@@ -4,11 +4,73 @@
   <ResearchProjectDef>
     <defName>PZB_SlingshotProject</defName>
     <label>slingshot</label>
-    <description>A simple device used to pelt enemies with stones - tends to be far less lethal than bow and arrow.</description>
+    <description>Allows you to craft a simple device used to pelt enemies with stones - tends to be far less lethal than bow and arrow.</description>
     <baseCost>150</baseCost>
     <techLevel>Neolithic</techLevel>
     <researchViewX>1</researchViewX>
     <researchViewY>4.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PZB_StunStickProject</defName>
+    <label>stun stick</label>
+    <description>Allows you to craft an industrial era melee weapon which delivers an incredibly painful jolt.</description>
+    <baseCost>250</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>4</researchViewX>
+    <researchViewY>4.5</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PZB_BeanbagGunProject</defName>
+    <label>beanbag gun</label>
+    <description>Allows you to craft an industrial era ranged weapon which fires incapacitatingly painful less-lethal beanbags at enemies.</description>
+    <baseCost>350</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>5</researchViewX>
+    <researchViewY>4.5</researchViewY>
+		<prerequisites>
+			<li>Gunsmithing</li>
+		</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PZB_RiotRifleProject</defName>
+    <label>riot rifle</label>
+    <description>Allows you to craft a modern era assault rifle which fires painful rubber bullets to subdue targets.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>7</researchViewX>
+    <researchViewY>4.5</researchViewY>
+		<prerequisites>
+			<li>PrecisionRifling</li>
+		</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PZB_NetLauncherProject</defName>
+    <label>net launcher</label>
+    <description>Allows you to manufacture a a rocket launcher which fires a light net at an enemy and stops their movement while trying to escape from the net.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>8</researchViewX>
+    <researchViewY>4.5</researchViewY>
+		<prerequisites>
+			<li>Mortars</li>
+		</prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>PZB_ZapRifleProject</defName>
+    <label>zap rifle</label>
+    <description>Allows you to manufacture a modified charge rifle which fires an incredibly painful jolt to subdue enemies.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Spacer</techLevel>
+    <researchViewX>10</researchViewX>
+    <researchViewY>4.5</researchViewY>
+		<prerequisites>
+			<li>ChargedShot</li>
+		</prerequisites>
   </ResearchProjectDef>
 
 </Defs>

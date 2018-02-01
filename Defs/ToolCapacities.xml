@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+  <ToolCapacityDef>
+    <defName>PZB_Pelt</defName>
+    <label>pelting</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>PZB_StunStickDamage</defName>
+    <label>stunning</label>
+  </ToolCapacityDef>
+
+  <ToolCapacityDef>
+    <defName>PZB_Zap</defName>
+    <label>zapping</label>
+  </ToolCapacityDef>
+
+</Defs>

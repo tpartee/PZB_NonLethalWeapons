@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ManeuverDef>
+    <defName>PZB_Zap</defName>
+    <requiredCapacity>PZB_StunStickDamage</requiredCapacity>
+    <verb>
+      <verbClass>Verb_MeleeAttack</verbClass>
+      <meleeDamageDef>PZB_StunStickDamage</meleeDamageDef>
+    </verb>
+    <combatLogRules>Poke</combatLogRules>
+  </ManeuverDef>
+
+</Defs>
